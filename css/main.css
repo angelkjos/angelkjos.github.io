@@ -1,0 +1,403 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: "myfont";
+    src: url(../font-myriad-pro/MYRIADPRO-REGULAR.woff) format('woff');
+}
+
+@font-face {
+    font-family: "myfont";
+    src: url(../font-myriad-pro/MYRIADPRO-BOLD.woff) format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "myfont";
+    src:url(../font-myriad-pro/MYRIADPRO-BOLDIT.woff) format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "myfont";
+    src: url(../font-myriad-pro/MYRIADPRO-CONDIT.woff) format('woff');
+    font-style: italic;
+}
+
+html { 
+  
+}
+
+body{
+	background: url(../img/ohrid1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	font-family: myfont;
+	margin:0;
+}
+
+a{
+	text-decoration:none;
+	font:myfont;
+	font-weight:400;
+	color:#FFF;
+}
+a:visited{
+	text-decoration:none;
+	font:myfont;
+	font-weight:400;
+	color:#FFF;
+}
+a:hover{
+	text-decoration:none;
+	font:myfont;
+	font-weight:400;
+	color:#FC6;
+}
+
+a.active{
+	color:#FF9933;
+}
+
+#container{
+	height:100%;
+	width:100%;
+}
+
+.header{
+	position:relative;
+	margin-top:15px;
+	margin-right:20px;
+	width:200px;
+	float:right;
+	background-color: rgba(0,0,0,0.0);
+}
+
+.header ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+.header ul li { 
+	display: inline-block; 
+	margin:5px;
+	opacity:1.0;
+}
+#about{ display:none; }
+#skills{ display:none;}
+.navBottomMargin{
+	margin-bottom:20px;
+}
+
+.header ul li a
+{
+	text-decoration: none;
+	
+}
+
+.header ul li a:hover
+{
+	opacity:1.0;
+}
+.navigation{
+	position:absolute;
+	width:150px;
+	height:100%;
+	background-color: rgba(0,0,0,0.4);
+	float:left;	
+}
+.navigation ul li{
+	margin-top:20px;
+}
+#navigationList{
+	list-style-type:none;
+	font-weight:400;
+	color:#FFF;
+	
+	margin-left:-20px;
+	margin-top:50px;
+}
+#navigationList2{
+	list-style-type:none;
+	font-weight:400;
+	color:#FFF;
+	margin-top:5px;
+	margin-left:-20px;
+	margin-top:0;
+}
+#navigationList2 li{
+	margin-top:3px;
+}
+
+#main1{
+	background-color:rgba(0,0,0,0.7);
+	position:absolute;
+     width:600px;
+     height:200px;
+     z-index:15;
+     top:50%;
+     left:50%;
+	 margin:-100px 0 0 -300px;
+	 color:white;
+}
+#main1header{
+	text-align:center;
+	margin:30px auto 10px auto;
+	font-size:24px;
+	letter-spacing:5px;
+}
+#name{
+	text-align:center;
+	font-size:36px;
+	margin:60px auto 0 auto;
+	letter-spacing:15px;
+	font-weight:200;
+	
+}
+
+#description{
+	text-align:center;
+	font-size:16px;
+	margin:5px auto;
+	font-weight:200;
+	font-style:italic;
+}
+#grabCV{
+	text-align:center;
+	font-size:16px;
+	margin:10px auto;
+	font-weight:bold;
+	text-decoration:underline;
+	font-style:italic;
+}
+
+#main2{
+	background-color:rgba(0,0,0,0.8);
+	position:absolute;
+     width:600px;
+     height:350px;
+     z-index:15;
+     top:50%;
+     left:50%;
+	 margin:-175px 0 0 -300px;
+	 color:white;
+}
+#photoAbout{
+	margin-right:25px;
+	margin-top:-10px;
+	margin-left:10px;
+	float:left;
+}
+#aboutText{
+	margin:45px 15px 20px 15px;
+}
+
+#main3{
+	background-color:rgba(0,0,0,0.85);
+	position:absolute;
+     width:600px;
+     height:450px;
+     z-index:15;
+     top:50%;
+     left:50%;
+	 margin:-225px 0 0 -300px;
+	 color:white;
+}
+#main3header{
+	text-align:center;
+	margin:30px auto 10px auto;
+	font-size:24px;
+}
+.tabelaImeSkill{
+	width:200px;
+	height:50px;
+}
+#main4{
+	background-color:rgba(0,0,0,0.80);
+	position:absolute;
+     width:600px;
+     height:500px;
+     z-index:15;
+     top:50%;
+     left:50%;
+	 margin:-250px 0 0 -300px;
+	 color:white;
+}
+
+#main5{
+	background-color:rgba(0,0,0,0.80);
+	position:absolute;
+     width:600px;
+     height:600px;
+     z-index:15;
+     top:50%;
+     left:50%;
+	 margin:-300px 0 0 -300px;
+	 color:white;
+}
+
+@media only screen and (max-width: 640px) {
+	
+		body{
+			width:100%;
+			height:100%;
+			background: url(../img/ooohrid.jpg) no-repeat center top; 
+			 -webkit-background-size: cover;
+  			-moz-background-size: cover;
+  			-o-background-size: cover;
+ 			 background-size: cover;
+			overflow:auto;
+			font-family: myfont;
+			margin:0;
+		}
+		
+		#container{
+			height:90%;
+			width:90%;
+			margin:0 auto;
+		}
+		
+		.header{
+			position:fixed;
+			bottom:0px;
+			padding-bottom:15px;
+			z-index:30;
+			width:100%;
+			float:none;
+			background-color: rgba(255,255,255,1.0);
+			margin:0 auto;
+		}
+		
+		.navigation{
+			position:absolute;
+			width:100%;
+			height:150px;
+			background-color: rgba(0,0,0,0.8);
+			float:none;	
+		}
+		.navigation ul li{
+			margin-top:0px;
+		}
+		#navigationList li{
+			margin:5px auto;
+		}
+		#navigationList{
+			text-align:center;
+			list-style-type:none;
+			padding:0px;
+			margin:0px;
+			margin-top:10px;
+			margin-left:0px;
+			font-weight:400;
+			color:#FFF;
+			font-size:24px;
+		}
+		#videos{display:none;}
+		#blog{display:none;}
+		#who{display:none;}
+		#navigationList2{display:none;}
+		#about{display:inherit;}
+		#skills{display:inherit;}
+		
+		#main1{
+			background-color:rgba(0,0,0,0.7);
+			 position:absolute;
+			 width:100%;
+			 height:200px;
+			 z-index:15;
+			 top:40%;
+			 left:0px;
+			 margin:0 auto;
+			 color:white;
+		}
+		#main1header{
+			text-align:center;
+			margin:10px auto 10px auto;
+			font-size:36px;
+			letter-spacing:4px;
+		}
+		#name{
+			text-align:center;
+			font-size:36px;
+			margin:30px auto 0 auto;
+			letter-spacing:15px;
+			font-weight:200;
+			
+		}
+		
+		#description{
+			text-align:center;
+			font-size:16px;
+			margin:5px auto;
+			font-weight:200;
+			font-style:italic;
+		}
+		#grabCV{
+			text-align:center;
+			font-size:16px;
+			margin:10px auto;
+			font-weight:bold;
+			text-decoration:underline;
+			font-style:italic;
+		}
+		
+		
+		#main2{
+			background-color:rgba(0,0,0,0.8);
+			position:absolute;
+			 width:100%;
+			 height:350px;
+			 z-index:15;
+			 top:25%;
+			 left:0;
+			 margin:0 0 0 0;
+			 color:white;
+		}
+		#photoAbout{
+			margin-right:25px;
+			margin-top:-10px;
+			margin-left:10px;
+			float:left;
+		}
+		#aboutText{
+			margin:20px 15px 20px 15px;
+		}
+		
+		#main3{
+			background-color:rgba(0,0,0,0.85);
+			position:absolute;
+			 width:100%;
+			 height:450px;
+			 z-index:15;
+			 top:25%;
+			 left:0;
+			 margin:0 0 0 0;
+			 color:white;
+		}
+		#main3header{
+			text-align:center;
+			margin:10px auto 5px auto;
+			font-size:24px;
+		}
+		.tabelaImeSkill{
+			height:50px;
+			width:20%;
+			padding-right:10px;
+		}
+		#main4{
+			background-color:rgba(0,0,0,0.80);
+			position:absolute;
+			 width:100%;
+			 height:500px;
+			 z-index:15;
+			 top:25%;
+			 left:0;
+			 margin:0 0 0 0;
+			 color:white;
+		}
+}
