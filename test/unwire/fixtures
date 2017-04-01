@@ -1,0 +1,37 @@
+{
+   "fixtures":[
+      {
+         "fixtureId":12,
+         "teamIdHome":11,
+         "teamIdAway":13,
+         "startTime":"2015-04-11-12:00",
+         "result":{
+            "scoreHome":3,
+            "scoreAway":1,
+            "finished":true
+         }
+      },
+      {
+         "fixtureId":13,
+         "teamIdHome":11,
+         "teamIdAway":13,
+         "startTime":"2015-04-12-12:00",
+         "result":{
+            "scoreHome":3,
+            "scoreAway":1,
+            "finished":true
+         }
+      },
+      {
+         "fixtureId":12,
+         "teamIdHome":11,
+         "teamIdAway":13,
+         "startTime":"2015-04-13-12:00",
+         "result":{
+            "scoreHome":3,
+            "scoreAway":1,
+            "finished":false
+         }
+      }
+   ]
+}
