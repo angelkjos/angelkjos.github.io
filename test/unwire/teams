@@ -1,0 +1,14 @@
+{
+   "teams":[
+      {
+         "teamId":12,
+         "teamName":"Happy Tree Friends",
+         "bannerUrl":"http://my.teambanner.url/12.jpg"
+      },
+      {
+         "teamId":10,
+         "teamName":"Android Asteroids",
+         "bannerUrl":"http://my.teambanner.url/10.jpg"
+      }
+   ]
+}
