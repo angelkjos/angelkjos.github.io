@@ -8,7 +8,7 @@
          "result":{
             "scoreHome":3,
             "scoreAway":1,
-            "finished":true
+            "finished":false
          }
       },
       {
