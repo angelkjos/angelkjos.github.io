@@ -2,26 +2,95 @@
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Angel Kjoseski</title>
   <script data-ad-client="ca-pub-7730982699613683" async
     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: "Times New Roman", Times, serif;
+      font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Code', 'Consolas', 'Courier New', monospace;
+      line-height: 1.6;
+      color: #333;
+      background-color: #fafafa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 600px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 300;
+      margin-bottom: 1rem;
+      color: #222;
+    }
+
+    .tagline {
+      font-size: 1.1rem;
+      color: #666;
+      margin-bottom: 2.5rem;
+      font-weight: 300;
+    }
+
+    .links {
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .links a {
+      color: #333;
+      text-decoration: none;
+      font-size: 1rem;
+      padding: 0.5rem 0;
+      border-bottom: 2px solid transparent;
+      transition: border-color 0.3s ease;
+    }
+
+    .links a:hover {
+      border-bottom-color: #333;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      .tagline {
+        font-size: 1rem;
+      }
+
+      .links {
+        gap: 1.5rem;
+      }
     }
   </style>
 </head>
 
 <body>
-  <h1>Angel Kjoseski</h1>
-  <p>
-    Software Engineer currently working for Facebook in London.
-  </p>
-  <p>
-    <a href="resume/Resume - Angel Kjoseski.pdf">Resume</a> |
-    <a href="https://www.linkedin.com/in/angelkjoseski/">LinkedIn</a> |
-    <a href="mailto:angel.koseski@gmail.com">Email</a>
-  </p>
+  <div class="container">
+    <h1>Angel Kjoseski</h1>
+    <p class="tagline">Staff Software Engineer & Technical Lead at Meta (WhatsApp)</p>
+    <div class="links">
+      <a href="resume/Resume - Angel Kjoseski.pdf">Resume</a>
+      <a href="https://www.linkedin.com/in/angelkjoseski/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="mailto:angel.koseski@gmail.com">Email</a>
+    </div>
+  </div>
 </body>
 
 </html>
